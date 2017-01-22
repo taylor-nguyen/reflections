@@ -1,0 +1,15 @@
+Show history of repo:
+git log
+git log --stat: git log with stat, what file and how many files changes
+
+Diff view:
+git diff [commit1] [commit2]: between 2 commits
+
+Clone a repository:
+git clone [repository]
+
+Check out a previous version of code-detach HEAD:
+git checkout [commit]
+
+git diff: all changes made in current branch
+git reset --hard
