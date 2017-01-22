@@ -1,0 +1,48 @@
+How did viewing a diff between two versions of a file help you see the bug that
+was introduced?
+
+    You can see what changes are, go through each one of the changes made and can quickly spot where the error is
+
+How could having easy access to the entire history of a file make you a more
+efficient programmer in the long term?
+
+    An entire history of the file is available for viewing, can see where the file was created, when it was last modified, etc. and potentially roll back to a previous version if current version is not working
+
+What do you think are the pros and cons of manually choosing when to create a
+commit, like you do in Git, vs having versions automatically saved, like Google
+docs does?
+
+    manually commit
+		pros:
+			can choose when to commit
+			can group logical changes into 1 commit
+		cons:
+			have to manually commit
+			might forget when working->changes become too big/too small
+	Auto saved
+		pros:
+			system does that automatically
+			save time
+		cons:
+			clutter history if save too often
+			version saved might not work as it was half-way saved
+			can't control/group changes
+			
+
+Why do you think some version control systems, like Git, allow saving multiple
+files in one commit, while others, like Google Docs, treat each file separately?
+
+    Git was designed to be a true version control to be used in software development, hence it allows multiple files in a commit. Google Docs is not a version control system in itself, it just supports version control to files stored.
+
+How can you use the commands git log and git diff to view the history of files?
+
+    git log can reveal history of recent file changes, git diff or git log --stat can show how many changes are made in each commit and what changes are
+
+How might using version control make you more confident to make changes that
+could break something?
+
+    You can always rollback to a previous version of repository using git checkout, so it is less worrisome that you could break things that can't be fixed
+
+Now that you have your workspace set up, what do you want to try using Git for?
+
+    To learn more about Git and start using it in my own projects
