@@ -4,6 +4,8 @@ git log --stat: git log with stat, what file and how many files changes
 
 Diff view:
 git diff [commit1] [commit2]: between 2 commits
+git diff: changes between working directory and staging area - all changes made
+git diff --staged: diff between staging area and latest commit in repository (HEAD)
 
 Clone a repository:
 git clone [repository]
@@ -14,4 +16,3 @@ Reset to latest commit:
 git reset --hard HEAD
 git checkout master
 
-git diff: all changes made in current branch
