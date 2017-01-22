@@ -10,6 +10,8 @@ git clone [repository]
 
 Check out a previous version of code-detach HEAD:
 git checkout [commit]
+Reset to latest commit:
+git reset --hard HEAD
+git checkout master
 
 git diff: all changes made in current branch
-git reset --hard
