@@ -1,6 +1,7 @@
 Show history of repo:
 git log
 git log --stat: git log with stat, what file and how many files changes
+git log --graph --oneline [branchA] [branchB]...: graphical view of branch commits
 
 Diff view:
 git diff [commit1] [commit2]: between 2 commits
