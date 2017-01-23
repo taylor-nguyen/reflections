@@ -16,3 +16,6 @@ Reset to latest commit:
 git reset --hard HEAD
 git checkout master
 
+Branching:
+git branch: current checked out branch
+git branch branch_name: create a new branch
