@@ -7,6 +7,7 @@ Diff view:
 git diff [commit1] [commit2]: between 2 commits
 git diff: changes between working directory and staging area - all changes made
 git diff --staged: diff between staging area and latest commit in repository (HEAD)
+git show commit: show diff of commit with its parent - useful in a merge
 
 Clone a repository:
 git clone [repository]
@@ -20,3 +21,8 @@ git checkout master
 Branching:
 git branch: current checked out branch
 git branch branch_name: create a new branch
+git branch -d branch_name: delete a branch
+
+Merging:
+git merge branch1 branch2
+git merge --abort: abort a merge
