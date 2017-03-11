@@ -17,3 +17,7 @@ What is the benefit of having a copy of the last known state of the remote store
 How would you collaborate without using Git or GitHub? What would be easier, and what would be harder?
 
 	Without Git, you just have to manually merge changes from different people's work, organising a meet-up and merge, resolve conflicts if any. It is definitely harder without Git as it is more time-consuming and involved more manual work.
+	
+When would you want to make changes in a separate branch rather than directly in master? What benefits does each approach have?
+	
+	For simple changes that can be done immediately with in a commit, you can make those changes directly in master and then commit/push. For a bigger change that requires several commits or can't be done in a short period of time, it'd be better to create a separate branch and commit changes to it. The only benefit branching gives is you can group logical changes in a branch separated from local master branch, even though working directly in master is more straightforward and requires less work
